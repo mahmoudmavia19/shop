@@ -4,7 +4,17 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Shop\\": ""
+            "Shop\\Actions\\": "actions/",
+            "Shop\\Core\\": "core/",
+            "Shop\\Data\\Network\\": "data/Network/",
+            "Shop\\Data\\RemoteDataSource\\": "data/RemoteDataSource/",
+            "Shop\\Data\\Requests\\": "data/Requests/",
+            "Shop\\Domain\\Entities\\": "domain/Entities/",
+            "Shop\\Domain\\Repository\\": "domain/Repository/",
+            "Shop\\Domain\\UseCases\\": "domain/UseCases/",
+            "Shop\\Presentation\\Screens\\AddProduct\\": "presentation/screens/AddProduct/",
+            "Shop\\Presentation\\Screens\\EditProduct\\": "presentation/screens/EditProduct/",
+            "Shop\\Presentation\\Screens\\GetProducts\\": "presentation/screens/GetProducts/"
         }
     },
     "authors": [
