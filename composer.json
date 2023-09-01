@@ -1,10 +1,10 @@
 {
-    "name": "hamdy/shop",
+    "name": "mahmoudmavia19/shop",
     "description": "first php project with composer",
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Hamdy\\Shop\\": "src/"
+            "mahmoudmavia19\\Shop\\": "src/"
         }
     },
     "authors": [
