@@ -1,0 +1,120 @@
+body, h1, form {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color:#fff;
+}
+
+form {
+   max-width: 400px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+ .link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  form {
+    padding: 10px;
+  }
+}
+
+.card{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 25%;
+    box-shadow: silver 1px 2px ;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    float: right;
+}
+
+.btnCon{
+  margin-bottom: 20px;
+}
+
+.card-img-top{
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+    width: 100%;
+    height: 200px;
+}
+  .btn-danger {
+    background-color: #dc3545; /* Red color for delete button */
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .btn-primary {
+    background-color: #007bff; /* Blue color for edit button */
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+
+  /* Hover effect */
+  .btn-danger:hover,
+  .btn-primary:hover {
+    opacity: 0.8;
+  }
+ 
