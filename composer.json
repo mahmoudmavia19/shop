@@ -5,7 +5,7 @@
     "autoload": {
         "psr-4": {
             "Shop\\Actions\\": "actions/",
-            "Shop\\Core\\": "core/",
+            "Shop\\Core\\config\\": "core/config/",
             "Shop\\Data\\Network\\": "data/Network/",
             "Shop\\Data\\RemoteDataSource\\": "data/RemoteDataSource/",
             "Shop\\Data\\Requests\\": "data/Requests/",
